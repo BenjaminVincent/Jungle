@@ -1,0 +1,31 @@
+<thead>
+<tr>
+  <th>Data</th>
+  <th>Count</th>
+  <th>GoTo</th>
+</tr>
+</thead>
+<tbody>
+<tr> 
+  <td>
+    Products
+  </td>
+  <td>
+    <%=@products_count%>
+  </td>
+  <td>
+    <%= link_to "Products", '/admin/products' %>
+  </td>
+</tr>
+<tr> 
+  <td>
+    Categories
+  </td>
+  <td>
+    <%=@categories_count%>
+  </td>
+  <td>
+    <%= link_to "Categories", '/admin/products' %>
+  </td>
+</tr>
+</tbody>
