@@ -1,6 +1,7 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Jungle is a small e-commerce web application built with Rails 4.2.
+Mock purchases, products, categories
 
 
 ## Setup
@@ -25,3 +26,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+* RSpec
+
+## Screenshots
+!["home page"](https://github.com/BenjaminVincent/Jungle/blob/master/docs/products-home-page.png?raw=true)
+!["admin products"](https://github.com/BenjaminVincent/Jungle/blob/master/docs/admin-products.png?raw=true)
+!["cart"](https://github.com/BenjaminVincent/Jungle/blob/master/docs/this-is-a-good-price.png?raw=true)
